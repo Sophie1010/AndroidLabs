@@ -14,34 +14,47 @@
     tools:context="com.example.labs.LoginActivity"
     tools:showIn="@layout/activity_login">
 
-    <EditText
+    <TextView
         android:text="@string/login"
         android:ems="12"
+        android:textColor="#372c24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:ems="8"
-        android:hint="login name"
-        android:inputType="textEmailAddress" />
+        android:id="@+id/editText"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:ems="5"
+        android:inputType="textEmailAddress"
+        android:text="@string/email" />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:text="@string/pwd"
         android:ems="12"
-        android:id="@+id/editText" />
+        android:textColor="#372c24"
+        android:id="@+id/textView2" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:inputType="textPassword"
-        android:text="pwd"
         android:ems="8"
         android:id="@+id/editText2" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/button2"
+        android:background="@drawable/loginbtn" />
 </LinearLayout>
